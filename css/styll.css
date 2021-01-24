@@ -23,8 +23,7 @@ font-family: 'Poiret One', cursive;
 color: black;
 }
 body {
-background-image: url(nm.png);
-border: 5px dotted green;
+background-image: url(./images.bg);
 }
 .an {
 color: black;
@@ -51,3 +50,7 @@ background-color: black;
 color: white;
 margin-top: 100%;
 }
+section h1 {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
