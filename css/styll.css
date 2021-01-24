@@ -24,6 +24,7 @@ color: black;
 }
 body {
 background-image: url(nm.png);
+border: 5px dotted green;
 }
 .an {
 color: black;
