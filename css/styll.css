@@ -31,6 +31,10 @@ display: block;
 
 .dropdown:hover .dropdown-content {display: block;}
 
+.he {
+    display: inline-block;
+    margin-left: 60%;
+}
 .dec {
 text-decoration: none;
 color: grey;
@@ -44,6 +48,9 @@ color: black;
 .an {
 color: black;
 text-decoration: none;
+display: inline-block;
+padding-top: 1.6rem;
+margin-left: 12.15rem;
 font-size: 2rem;
 font-family: 'Encode Sans Condensed', "sans-serif";
 }
