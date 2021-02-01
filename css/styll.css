@@ -37,12 +37,12 @@ display: block;
 }
 .dec {
 text-decoration: none;
-color: grey;
+color: black;
 font-size: 1.25rem;
 font-family: 'Poiret One', cursive;
 }
 .dec:hover {
-color: black;
+color: grey;
 }
 
 .an {
