@@ -29,7 +29,7 @@ display: block;
 }
 .dropdown-content a:hover {background-color: rgb(113, 151, 196);}
 
-.dropdown:hover .dropdown-content {display: block; margin-top: 0.2rem;}
+.dropdown:hover .dropdown-content {display: block; margin-top: 0.1rem;}
 
 .he {
     display: inline-block;
