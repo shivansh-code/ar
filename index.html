@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Encode+Sans+Condensed:wght@300&family=Montserrat:wght@200&family=Poiret+One&family=Nanum+Myeongjo&family=Roboto:wght@100&display=swap" rel="stylesheet">
         </head>
         <body>
-        <div class="bg">
+        <div class="bg" id = "bg2">
         <nav>
           <ul>
             <li>
@@ -23,8 +23,8 @@
             <li class="dropdown">
               <a href="#" class="dec dropbtn"><strong>&nbsp;Gallery</strong></a>
               <div class="dropdown-content">
-                <a href="#" class="dec">&nbsp;Art</a>
-                <a href="#" class="dec">&nbsp;Photography&nbsp;</a>
+                <a href="photos.html" class="dec">&nbsp;Art</a>
+                <a href="photos.html" class="dec">&nbsp;Photography&nbsp;</a>
               </div>
             </li>
             </span>
@@ -39,6 +39,20 @@
           </span>
         </p>
         </div>
+        <script>
+          const img = document.querySelector("#bg2");
+          const img1 = "url(images/bg.jpeg)";
+          const img2 = "url(images/bg1.jpg)";
+          setInterval(function()
+            { 
+              if (img.style.backgroundImage === img1) {
+                img.style.backgroundImage = img2;
+              }
+              else {
+                img.style.backgroundImage = img1;
+              }
+            }, 3000)
+        </script>
         <section>
           <h1>About</h1>
           <p>Shivansh Gupta is an experienced General Photographer who is passionate about capturing unique moments with their signature style. Shivansh Gupta began their venture into photography in 2016 and soon became obsessed with the fundamentals that make a great photograph: lighting, balance, composition and use of space. Shivansh Gupta captures poignant and profound moments with a creative twist.</p>
